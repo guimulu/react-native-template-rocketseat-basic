@@ -128,7 +128,14 @@ Serão explicados os arquivos e diretórios na seção de [Edição](#edição).
 react-native init AwesomeExample --template rocketseat-basic
 ```
 
-2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+2. Depois do projeto criado você pode utilizar o comando abaixo para remover automaticamente alguns arquivos e diretórios que não usamos e configurar a *lib* de gestos no Android.
+
+```sh
+node template-config.js
+```
+
+Caso você **não** queira realizar as configurações automaticamente, você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src** e seguir para o [Passo Adicional no Android](#passo-adicional-no-android).
+
 
 Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
